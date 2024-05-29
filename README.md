@@ -38,7 +38,6 @@ This project uses the HIV dataset, which contains molecules labeled for their ac
    Create a config.py file to specify the DEVICE (CPU or CUDA if available).
 
 3. **Run the train script:**
-   ```bash
    This will train the GVAE model and log metrics and models to MLflow.
 
 
