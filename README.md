@@ -1,6 +1,6 @@
-# Graph Variational Autoencoder (GVAE) for Molecular Generation
+# Graph Variational Autoencoder (MolVAE) for Molecular Generation
 
-This project implements a Graph Variational Autoencoder (GVAE) for the generation of novel molecular structures. The GVAE learns a latent representation of molecules and can be used to generate new molecules with desired properties. 
+This project implements a Graph Variational Autoencoder (MolVAE) for the generation of novel molecular structures. The MolVAE learns a latent representation of molecules and can be used to generate new molecules with desired properties. 
 
 ## Overview
 
