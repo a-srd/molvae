@@ -43,22 +43,20 @@ This project uses the HIV dataset, which contains molecules labeled for their ac
 
 ## Code Structure
 
-train.py: Main script for training and evaluation of the GVAE.
-molvae.py: Contains the GVAE model implementation.
-dataset.py: Provides a custom MoleculeDataset class to load and process molecule data.
-utils.py: Includes utility functions for data processing, loss calculation, graph manipulation, and metrics.
-config.py: Configuration file for setting up the device (CPU/GPU).
+- train.py: Main script for training and evaluation of the GVAE.
+- molvae.py: Contains the GVAE model implementation.
+- dataset.py: Provides a custom MoleculeDataset class to load and process molecule data.
+- utils.py: Includes utility functions for data processing, loss calculation, graph manipulation, and metrics.
+- config.py: Configuration file for setting up the device (CPU/GPU).
 
 ## Experiments and Results
-Experiment results and model checkpoints are tracked using MLflow.
-You can visualize and compare experiments in the MLflow UI.
+- Experiment results and model checkpoints are tracked using MLflow.
+- You can visualize and compare experiments in the MLflow UI.
 
 ## Future Work
-Explore different graph neural network architectures (e.g., Graph Attention Networks) for the encoder and decoder.
-Incorporate property prediction into the model for conditional generation of molecules with specific properties.
-Experiment with different latent space distributions and regularization techniques.
-Contributing
-Contributions are welcome! Please feel free to submit issues or pull requests.
+- Explore different graph neural network architectures (e.g., Graph Attention Networks) for the encoder and decoder.
+- Incorporate property prediction into the model for conditional generation of molecules with specific properties.
+- Experiment with different latent space distributions and regularization techniques.
 
 ## License
 This project is licensed under the MIT License.
